@@ -1,6 +1,11 @@
 {
   "expo": {
     "name": "eventutti-app-00",
+    "plugins": ["expo-camera", "expo-image-picker"],
+    "permissions": [
+      "CAMERA",
+      "MEDIA_LIBRARY"
+    ],
     "slug": "eventutti-app-00",
     "version": "1.0.0",
     "orientation": "portrait",
